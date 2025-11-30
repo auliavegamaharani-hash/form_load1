@@ -37,7 +37,7 @@ namespace form_load1
             {
                 // 2. Siapkan Query SQL
                 // Ganti 'TabelUser' dengan nama tabel aslimu (misal: users, admin, petugas)
-                string query = string.Format("SELECT * FROM Tabel User WHERE username = '{0}' AND password = '{1}'",
+                string query = string.Format("SELECT * FROM [Tabel User] WHERE username = '{0}' AND password = '{1}'",
                                              Username.Text ,Password.Text);
 
                 // 3. Panggil DbHelper untuk eksekusi query
@@ -50,6 +50,7 @@ namespace form_load1
 
                     // Buka Form Utama (frmMain)
                     frmMain mainForm = new frmMain();
+                    mainForm.UserLogin = Username.Text; 
                     mainForm.Show();
 
                     // Sembunyikan Form Login
