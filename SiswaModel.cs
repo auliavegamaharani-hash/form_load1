@@ -1,7 +1,6 @@
-﻿
-using System;
+﻿using System;
 
-namespace SistemDataSiswa
+namespace YourNamespace
 {
     public class SiswaModel
     {

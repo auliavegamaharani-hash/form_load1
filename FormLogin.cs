@@ -17,6 +17,14 @@ namespace form_load1
         public FormLogin()
         {
             InitializeComponent();
+
+            // Mask password by default
+            // UseSystemPasswordChar works well with the system-defined bullet character.
+            // If you prefer a specific char: Password.PasswordChar = '●';
+            Password.UseSystemPasswordChar = true;
+
+            // Wire up checkbox event (ensure cbShowPassword exists in the designer)
+            cbShowPassword.CheckedChanged += CbShowPassword_CheckedChanged;
         }
 
         private void label1_Click(object sender, EventArgs e) { }
@@ -67,6 +75,12 @@ namespace form_load1
                 MessageBox.Show("Terjadi kesalahan: " + ex.Message);
             }
 
+        }
+
+        private void CbShowPassword_CheckedChanged(object sender, EventArgs e)
+        {
+            // When checked -> show plain text; when unchecked -> mask again
+            Password.UseSystemPasswordChar = !cbShowPassword.Checked;
         }
     }
 }

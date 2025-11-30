@@ -1,4 +1,4 @@
-﻿using form1_load;
+﻿
 using form_load1;
 using System;
 using System.Collections.Generic;
@@ -72,7 +72,7 @@ namespace form1_load
 
         private void iconButton7_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
