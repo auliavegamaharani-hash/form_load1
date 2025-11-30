@@ -82,5 +82,17 @@ namespace form_load1
         {
             
         }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // frmMain
+            // 
+            this.ClientSize = new System.Drawing.Size(822, 461);
+            this.Name = "frmMain";
+            this.ResumeLayout(false);
+
+        }
     }
 }

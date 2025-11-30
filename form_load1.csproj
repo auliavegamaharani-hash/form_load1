@@ -63,9 +63,6 @@
     <Compile Include="frmMain..cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain..Designer.cs">
-      <DependentUpon>frmMain..cs</DependentUpon>
-    </Compile>
     <Compile Include="forms\frmDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
