@@ -39,7 +39,7 @@ namespace form_load1
             ChildForm.BringToFront();
             ChildForm.Show();
             pagename.Text = ChildForm.Tag != null ?
-                ChildForm.Tag.ToString().ToUpper() : "Form Not Found";
+ 
 
 
         }
@@ -81,6 +81,18 @@ namespace form_load1
         private void ApplyMenuState()
         {
             
+        }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // frmMain
+            // 
+            this.ClientSize = new System.Drawing.Size(1031, 492);
+            this.Name = "frmMain";
+            this.ResumeLayout(false);
+
         }
     }
 }

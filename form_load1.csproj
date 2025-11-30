@@ -63,18 +63,23 @@
     <Compile Include="frmMain..cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain..Designer.cs">
-      <DependentUpon>frmMain..cs</DependentUpon>
-    </Compile>
     <Compile Include="forms\frmDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="forms\frmDashboard.Designer.cs">
       <DependentUpon>frmDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmSiswa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSiswa.Designer.cs">
+      <DependentUpon>frmSiswa.cs</DependentUpon>
+    </Compile>
     <Compile Include="koneksi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SiswaModel.cs" />
+    <Compile Include="SiswaRepository.cs" />
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -83,6 +88,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="forms\frmDashboard.resx">
       <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSiswa.resx">
+      <DependentUpon>frmSiswa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
