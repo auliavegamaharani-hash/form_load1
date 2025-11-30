@@ -54,7 +54,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(130, 44);
+            this.label1.Location = new System.Drawing.Point(121, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(140, 33);
             this.label1.TabIndex = 0;
@@ -64,7 +64,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(137, 99);
+            this.label2.Location = new System.Drawing.Point(128, 67);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 22);
             this.label2.TabIndex = 1;
@@ -74,7 +74,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(137, 146);
+            this.label3.Location = new System.Drawing.Point(128, 114);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(133, 22);
             this.label3.TabIndex = 2;
@@ -84,7 +84,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(137, 194);
+            this.label4.Location = new System.Drawing.Point(128, 162);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(139, 22);
             this.label4.TabIndex = 3;
@@ -94,7 +94,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(137, 249);
+            this.label5.Location = new System.Drawing.Point(128, 217);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(56, 22);
             this.label5.TabIndex = 4;
@@ -104,7 +104,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(137, 298);
+            this.label6.Location = new System.Drawing.Point(128, 266);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(69, 22);
             this.label6.TabIndex = 5;
@@ -114,7 +114,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(137, 346);
+            this.label7.Location = new System.Drawing.Point(128, 314);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(111, 22);
             this.label7.TabIndex = 6;
@@ -122,21 +122,21 @@
             // 
             // tbnisn
             // 
-            this.tbnisn.Location = new System.Drawing.Point(309, 99);
+            this.tbnisn.Location = new System.Drawing.Point(300, 67);
             this.tbnisn.Name = "tbnisn";
             this.tbnisn.Size = new System.Drawing.Size(250, 22);
             this.tbnisn.TabIndex = 7;
             // 
             // tbnama
             // 
-            this.tbnama.Location = new System.Drawing.Point(309, 146);
+            this.tbnama.Location = new System.Drawing.Point(300, 114);
             this.tbnama.Name = "tbnama";
             this.tbnama.Size = new System.Drawing.Size(250, 22);
             this.tbnama.TabIndex = 8;
             // 
             // tbratanilai
             // 
-            this.tbratanilai.Location = new System.Drawing.Point(309, 192);
+            this.tbratanilai.Location = new System.Drawing.Point(300, 160);
             this.tbratanilai.Name = "tbratanilai";
             this.tbratanilai.Size = new System.Drawing.Size(132, 22);
             this.tbratanilai.TabIndex = 9;
@@ -144,7 +144,7 @@
             // cbkls
             // 
             this.cbkls.FormattingEnabled = true;
-            this.cbkls.Location = new System.Drawing.Point(309, 247);
+            this.cbkls.Location = new System.Drawing.Point(300, 215);
             this.cbkls.Name = "cbkls";
             this.cbkls.Size = new System.Drawing.Size(132, 24);
             this.cbkls.TabIndex = 10;
@@ -152,7 +152,7 @@
             // cbjurusan
             // 
             this.cbjurusan.FormattingEnabled = true;
-            this.cbjurusan.Location = new System.Drawing.Point(309, 296);
+            this.cbjurusan.Location = new System.Drawing.Point(300, 264);
             this.cbjurusan.Name = "cbjurusan";
             this.cbjurusan.Size = new System.Drawing.Size(132, 24);
             this.cbjurusan.TabIndex = 11;
@@ -160,7 +160,7 @@
             // cbakhlak
             // 
             this.cbakhlak.FormattingEnabled = true;
-            this.cbakhlak.Location = new System.Drawing.Point(309, 347);
+            this.cbakhlak.Location = new System.Drawing.Point(300, 315);
             this.cbakhlak.Name = "cbakhlak";
             this.cbakhlak.Size = new System.Drawing.Size(132, 24);
             this.cbakhlak.TabIndex = 12;
@@ -169,7 +169,7 @@
             // 
             this.btninsert.BackColor = System.Drawing.Color.Pink;
             this.btninsert.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btninsert.Location = new System.Drawing.Point(216, 396);
+            this.btninsert.Location = new System.Drawing.Point(207, 364);
             this.btninsert.Name = "btninsert";
             this.btninsert.Size = new System.Drawing.Size(102, 30);
             this.btninsert.TabIndex = 13;
@@ -180,7 +180,7 @@
             // 
             this.btnupdate.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.btnupdate.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnupdate.Location = new System.Drawing.Point(337, 396);
+            this.btnupdate.Location = new System.Drawing.Point(328, 364);
             this.btnupdate.Name = "btnupdate";
             this.btnupdate.Size = new System.Drawing.Size(102, 30);
             this.btnupdate.TabIndex = 14;
@@ -191,7 +191,7 @@
             // 
             this.btndelete.BackColor = System.Drawing.Color.IndianRed;
             this.btndelete.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndelete.Location = new System.Drawing.Point(457, 396);
+            this.btndelete.Location = new System.Drawing.Point(448, 364);
             this.btndelete.Name = "btndelete";
             this.btndelete.Size = new System.Drawing.Size(102, 30);
             this.btndelete.TabIndex = 15;
@@ -202,7 +202,7 @@
             // 
             this.btnsearch.BackColor = System.Drawing.Color.LightGray;
             this.btnsearch.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsearch.Location = new System.Drawing.Point(562, 451);
+            this.btnsearch.Location = new System.Drawing.Point(553, 419);
             this.btnsearch.Name = "btnsearch";
             this.btnsearch.Size = new System.Drawing.Size(102, 30);
             this.btnsearch.TabIndex = 16;
@@ -213,7 +213,7 @@
             // 
             this.dgvSiswa.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvSiswa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvSiswa.Location = new System.Drawing.Point(95, 504);
+            this.dgvSiswa.Location = new System.Drawing.Point(86, 472);
             this.dgvSiswa.Name = "dgvSiswa";
             this.dgvSiswa.RowHeadersWidth = 51;
             this.dgvSiswa.RowTemplate.Height = 24;
@@ -222,7 +222,7 @@
             // 
             // txtSearch
             // 
-            this.txtSearch.Location = new System.Drawing.Point(95, 456);
+            this.txtSearch.Location = new System.Drawing.Point(86, 424);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(445, 22);
             this.txtSearch.TabIndex = 18;

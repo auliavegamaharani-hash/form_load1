@@ -29,6 +29,7 @@ namespace form1_load
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.panel2 = new System.Windows.Forms.Panel();
             this.iconButton7 = new FontAwesome.Sharp.IconButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -54,8 +55,9 @@ namespace form1_load
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 100);
+            this.panel2.Size = new System.Drawing.Size(267, 99);
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -68,9 +70,10 @@ namespace form1_load
             this.iconButton7.IconColor = System.Drawing.Color.Black;
             this.iconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton7.IconSize = 35;
-            this.iconButton7.Location = new System.Drawing.Point(118, 30);
+            this.iconButton7.Location = new System.Drawing.Point(157, 23);
+            this.iconButton7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.iconButton7.Name = "iconButton7";
-            this.iconButton7.Size = new System.Drawing.Size(56, 50);
+            this.iconButton7.Size = new System.Drawing.Size(75, 62);
             this.iconButton7.TabIndex = 2;
             this.iconButton7.Tag = "menu";
             this.iconButton7.UseVisualStyleBackColor = false;
@@ -79,9 +82,11 @@ namespace form1_load
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(109, 100);
+            this.pictureBox1.Size = new System.Drawing.Size(98, 99);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -97,8 +102,9 @@ namespace form1_load
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 450);
+            this.panel1.Size = new System.Drawing.Size(267, 554);
             this.panel1.TabIndex = 0;
             // 
             // iconButton6
@@ -106,14 +112,16 @@ namespace form1_load
             this.iconButton6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.iconButton6.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton6.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.SignOut;
             this.iconButton6.IconColor = System.Drawing.Color.Black;
             this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton6.IconSize = 35;
             this.iconButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton6.Location = new System.Drawing.Point(0, 407);
+            this.iconButton6.Location = new System.Drawing.Point(0, 501);
+            this.iconButton6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.iconButton6.Name = "iconButton6";
-            this.iconButton6.Size = new System.Drawing.Size(200, 43);
+            this.iconButton6.Size = new System.Drawing.Size(267, 53);
             this.iconButton6.TabIndex = 5;
             this.iconButton6.Tag = "signout";
             this.iconButton6.Text = "Sign Out";
@@ -125,14 +133,16 @@ namespace form1_load
             this.iconButton5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.iconButton5.Dock = System.Windows.Forms.DockStyle.Top;
             this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton5.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.BookBookmark;
             this.iconButton5.IconColor = System.Drawing.Color.Black;
             this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton5.IconSize = 35;
             this.iconButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton5.Location = new System.Drawing.Point(0, 229);
+            this.iconButton5.Location = new System.Drawing.Point(0, 258);
+            this.iconButton5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Size = new System.Drawing.Size(200, 43);
+            this.iconButton5.Size = new System.Drawing.Size(267, 53);
             this.iconButton5.TabIndex = 4;
             this.iconButton5.Tag = "matapelajaran";
             this.iconButton5.Text = "Mata Pelajaran";
@@ -143,14 +153,16 @@ namespace form1_load
             this.iconButton4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.iconButton4.Dock = System.Windows.Forms.DockStyle.Top;
             this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.Info;
             this.iconButton4.IconColor = System.Drawing.Color.Black;
             this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton4.IconSize = 35;
             this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.Location = new System.Drawing.Point(0, 186);
+            this.iconButton4.Location = new System.Drawing.Point(0, 205);
+            this.iconButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Size = new System.Drawing.Size(200, 43);
+            this.iconButton4.Size = new System.Drawing.Size(267, 53);
             this.iconButton4.TabIndex = 3;
             this.iconButton4.Tag = "nilai";
             this.iconButton4.Text = "Nilai";
@@ -161,14 +173,16 @@ namespace form1_load
             this.iconButton3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.iconButton3.Dock = System.Windows.Forms.DockStyle.Top;
             this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Person;
             this.iconButton3.IconColor = System.Drawing.Color.Black;
             this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton3.IconSize = 35;
             this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(0, 143);
+            this.iconButton3.Location = new System.Drawing.Point(0, 152);
+            this.iconButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Size = new System.Drawing.Size(200, 43);
+            this.iconButton3.Size = new System.Drawing.Size(267, 53);
             this.iconButton3.TabIndex = 2;
             this.iconButton3.Tag = "siswa";
             this.iconButton3.Text = "Siswa";
@@ -180,14 +194,16 @@ namespace form1_load
             this.btnDash.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnDash.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDash.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDash.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDash.IconChar = FontAwesome.Sharp.IconChar.House;
             this.btnDash.IconColor = System.Drawing.Color.Black;
             this.btnDash.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnDash.IconSize = 35;
             this.btnDash.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDash.Location = new System.Drawing.Point(0, 100);
+            this.btnDash.Location = new System.Drawing.Point(0, 99);
+            this.btnDash.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDash.Name = "btnDash";
-            this.btnDash.Size = new System.Drawing.Size(200, 43);
+            this.btnDash.Size = new System.Drawing.Size(267, 53);
             this.btnDash.TabIndex = 1;
             this.btnDash.Tag = "dashboard";
             this.btnDash.Text = "Dashboard";
@@ -199,20 +215,23 @@ namespace form1_load
             this.flowLayoutPanel2.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.flowLayoutPanel2.Controls.Add(this.pagename);
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(200, 0);
+            this.flowLayoutPanel2.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(267, 0);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(600, 100);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(800, 99);
             this.flowLayoutPanel2.TabIndex = 2;
             // 
             // pagename
             // 
             this.pagename.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pagename.AutoSize = true;
-            this.pagename.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pagename.Location = new System.Drawing.Point(3, 0);
+            this.pagename.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pagename.Location = new System.Drawing.Point(4, 0);
+            this.pagename.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.pagename.Name = "pagename";
-            this.pagename.Padding = new System.Windows.Forms.Padding(0, 25, 0, 0);
-            this.pagename.Size = new System.Drawing.Size(0, 62);
+            this.pagename.Padding = new System.Windows.Forms.Padding(0, 31, 0, 0);
+            this.pagename.Size = new System.Drawing.Size(0, 53);
             this.pagename.TabIndex = 0;
             this.pagename.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.pagename.Click += new System.EventHandler(this.label1_Click);
@@ -221,20 +240,22 @@ namespace form1_load
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(200, 100);
+            this.panel3.Location = new System.Drawing.Point(267, 99);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(600, 350);
+            this.panel3.Size = new System.Drawing.Size(800, 455);
             this.panel3.TabIndex = 3;
             this.panel3.Tag = "Sign Out";
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmMain";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
